@@ -6,6 +6,6 @@ form.addEventListener ("submit", (event) => {
 event.preventDefault ()
 {if (email.value === "") {emailHelp.innerText = "please add a valid email address"}
 }
-else {form.submit ();
+else {form.submit ()
 }
 })
